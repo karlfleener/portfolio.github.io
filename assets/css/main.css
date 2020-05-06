@@ -1656,6 +1656,7 @@ article > .container, article:last-child {
 .image {
   display: inline-block;
   border: 0;
+  border-radius: 24px;
 }
 
 .image img {
@@ -1672,6 +1673,7 @@ article > .container, article:last-child {
 .image.avatar48 img {
   width: 68px;
   height: 68px;
+  border-radius: 8px;
 }
 
 .image.fit {

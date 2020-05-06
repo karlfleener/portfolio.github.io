@@ -377,6 +377,7 @@
 	.image {
 		display: inline-block;
 		border: 0;
+		border-radius: 24px;
 
 		img {
 			display: block;
@@ -386,19 +387,20 @@
 		&.avatar48 {
 			width: 68px;
 			height: 68px;
-			background: #f00;
+			background: #f00;;
 
 			img {
 				width: 68px;
 				height: 68px;
+				border-radius: 8px;
 			}
 		}
-
+		
 		&.fit {
 			display: block;
 			width: 100%;
 		}
-
+		
 		&.featured {
 			display: block;
 			width: 35%;
