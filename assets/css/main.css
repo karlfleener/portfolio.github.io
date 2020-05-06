@@ -215,18 +215,18 @@ br.clear {
 .container {
   margin: 0 auto;
   max-width: 100%;
-  width: 1400px;
+  width: 100%;
 }
 
 @media screen and (min-width: 961px) and (max-width: 1880px) {
   .container {
-    width: 1200px;
+    width: 1400px;
   }
 }
 
 @media screen and (min-width: 961px) and (max-width: 1620px) {
   .container {
-    width: 960px;
+    width: 1200px;
   }
 }
 
@@ -1550,12 +1550,15 @@ br.clear {
 .skills-row {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(120px, 2fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(120px, 2fr));
+  -ms-grid-columns: (minmax(120px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .portfolio-row {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1599,7 +1602,7 @@ br.clear {
 .portfolio-description {
   font-size: 20px;
   text-align: left;
-  width: 700px;
+  width: 656px;
 }
 
 .portfolio-description h3, .portfolio-description div {
