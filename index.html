@@ -6,10 +6,13 @@
 -->
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
+		<title>Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet"
+			href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+		<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -20,32 +23,34 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Jane Doe</h1>
-							<p>Hyperspace Engineer</p>
+							<span class="image avatar48"><img src="images/profile-square.jpeg" alt="profile picture" /></span>
+							<h1 id="title">Karl Fleener</h1>
+							<p>Software Engineer</p>
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<li><a href="#about" id="about-link"><i class="icon solid fa-user"></i><span>About Me</span></a></li>
+								<!-- <li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li> -->
+								<li><a href="#skills" id="skills-link"><i class="icon solid fa-code"></i><span>Skills</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><i class="icon solid fa-th"></i><span>Portfolio</span></a></li>
+								<!-- <li><a href="#contact" id="contact-link"><i class="icon solid fa-envelope"></i><span>Contact</span></a></li> -->
 							</ul>
 						</nav>
 
 				</div>
 
+				<!-- Social Icons -->
 				<div class="bottom">
-
-					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+							<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<li><a href="https://www.linkedin.com/in/karlfleener/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/karlfleener" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://angel.co/u/karl-fleener" target="_blank" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<li><a href="mailto:karlfleener@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
 				</div>
@@ -55,38 +60,220 @@
 		<!-- Main -->
 			<div id="main">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
+		<!-- About Me -->
+		<section id="about" class="">
+			<div class="container">
+		
+				<header>
+					<h2>About Me</h2>
+				</header>
+		
+				<a href="#" class="image featured"><img src="images/profile-square.jpeg" alt="profile picture" /></a>
+		
+				<p>I am a Software Engineer with experience in React, Redux, JavaScript, 
+					Ruby and Rails. After graduating from Iowa State University I moved to 
+					New York and worked in the fashion industry for five years. Continuously 
+					learning and building beautiful product are what I am most passionate about.
+					I am currently searching for an opportunity to work with like-minded individuals
+					where I can continue to grow as a professional.</p>
+
+				<a href="/images/Karl Fleener Resume.pdf" target="_blank" class="button">Resume</a>
+
+		
+			</div>
+		</section>
+
+
+				<!-- Skills -->
+					<section id="skills" class="two">
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<h2>Skills</h2>
 							</header>
 
-							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-							</footer>
+							<div class="skills-row">
+								<div>
+									<i class="devicon-react-original colored"></i>
+									<div>React</div>
+								</div>
+
+								<div>
+									<i class="iconify colored" data-icon="logos-redux" data-inline="false"></i>
+									<div>Redux</div>
+								</div>
+
+								<div>
+									<i class="devicon-javascript-plain colored"></i>
+									<div>JavaScript</div>
+								</div>
+
+								<div>
+									<i class="devicon-rails-plain colored"></i>
+									<div>Rails</div>
+								</div>
+							
+								<div>
+									<i class="devicon-ruby-plain colored"></i>
+									<div>Ruby</div>
+								</div>
+
+								<div>
+									<i class="devicon-html5-plain colored"></i>
+									<div>HTML</div>
+								</div>
+
+								<div>
+									<i class="devicon-css3-plain colored"></i>
+									<div>CSS</div>
+								</div>
+
+								<div>
+									<i class="devicon-sass-original colored"></i>
+									<div>Sass</div>
+								</div>
+
+								<div>
+									<i class="devicon-postgresql-plain colored"></i>
+									<div>PostgreSQL</div>
+								</div>
+
+								<div>
+									<i class="devicon-jquery-plain colored"></i>
+									<div>jQuery</div>
+								</div>
+
+								<div>
+									<i class="devicon-mongodb-plain colored"></i>
+									<div>MongoDB</div>
+								</div>
+
+								<div>
+									<i class="devicon-express-original colored"></i>
+									<div>Express</div>
+								</div>
+
+								<div>
+									<i class="devicon-nodejs-plain colored"></i>
+									<div>Node.js</div>
+								</div>
+
+								<div>
+									<i class="devicon-heroku-plain colored"></i>
+									<div>Heroku</div>
+								</div>
+
+								<div>
+									<i class="devicon-git-plain colored"></i>
+									<div>Git</div>
+								</div>
+
+								<div>
+									<i class="devicon-webpack-plain colored"></i>
+									<div>Webpack</div>
+								</div>
+
+								<div>
+									<i class="devicon-amazonwebservices-original colored"></i>
+									<div>AWS</div>
+								</div>
+
+								<div>
+									<i class="devicon-photoshop-line colored"></i>
+									<div>Photoshop</div>
+								</div>
+
+								<div>
+									<i class="devicon-illustrator-line colored"></i>
+									<div>Illustrator</div>
+								</div>
+									
+							</div>
 
 						</div>
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<section id="portfolio" class="three">
 						<div class="container">
 
 							<header>
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<div class="portfolio-row">
+								<div class="portfolio-item">
+									<a href="https://pintoit.herokuapp.com/#/" target="_blank">
+										<img src="images/pintoit-preview.gif" />
+									</a>
+									<div class="portfolio-description">
+										<h3>Pintoit</h3>
+										<div class="portfolio-links">
+											<a href="https://pintoit.herokuapp.com/#/" target="_blank">Live | </a>
+											<a href="https://github.com/karlfleener/pintoit" target="_blank">GitHub</a>
+										</div>
+										<div>
+											<strong>React, Redux, JavaScript, Rails, PostgreSQL, AWS, HTML,
+											CSS, Git, Webpack, Babel
+											</strong>
+										</div>
+										<p>A Pinterest Clone that allows user to discover, create and
+											collect images and ideas. <br/>
+											• Implemented custom back and front-end user authentication by combining Rails,<br/> Active Record, and customized
+											React-Router higher order components.<br />
+											• Integrated modals for CRUD actions with pins and boards enhancing user experience.<br />
+											• Connected Rails back-end to AWS for media storage improving scalability and security.<br />
+										 </p>
+									</div>
+								</div>
 
-							<div class="row">
+								<div class="portfolio-item">
+									<a href="http://app-felix.herokuapp.com/#/" target="_blank">
+										<img src="images/felix-preview.gif" />
+									</a>
+										<div class="portfolio-description">
+											<h3>Felix</h3>
+											<div class="portfolio-links">
+												<a href="http://app-felix.herokuapp.com/#/" target="_blank">Live | </a>
+												<a href="https://github.com/makaveddy/felix" target="_blank">GitHub</a>
+											</div>
+											<div>
+												<strong>
+													MongoDB, Express, React, Node.js, JavaScript
+												</strong>
+											</div>
+											<p>An emotion-based media curation app <br />
+												• Headed front-end development and product design while collaborating with 3 other<br /> Software Engineers.<br />
+												• Incorporated React-Redux to architect highly scalable and unidirectional front-end<br /> state management.<br />
+												• Employed CSS flexbox for a compelling and dynamic product design.<br />
+											</p>
+										</div>
+								</div>
+
+								<div class="portfolio-item">
+									<a href="https://karlfleener.github.io/algorithm-visualizer/" target="_blank">
+										<img src="images/algo-visualizer-preview.gif" />
+									</a>
+										<div class="portfolio-description">
+											<h3>Algorithm Visualizer</h3>
+											<div class="portfolio-links">
+												<a href="https://karlfleener.github.io/algorithm-visualizer/" target="_blank">Live | </a>
+												<a href="https://github.com/karlfleener/algorithm-visualizer" target="_blank">GitHub</a>
+											</div>
+											<div><strong>JavaScript, Canvas</strong>
+											</div>
+											<p>An app displaying algorithm functionality <br />
+												• Leveraged generator functions for asynchronous programming<br />
+												• Designed graphics and animations utilizing Canvas<br />
+											</p>
+										</div>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+							<!-- <div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
@@ -132,30 +319,10 @@
 							</div>
 
 						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
-
-						</div>
-					</section>
+					</section> -->
 
 				<!-- Contact -->
-					<section id="contact" class="four">
+					<!-- <section id="contact" class="four">
 						<div class="container">
 
 							<header>
@@ -181,7 +348,7 @@
 							</form>
 
 						</div>
-					</section>
+					</section> -->
 
 			</div>
 

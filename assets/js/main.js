@@ -49,10 +49,9 @@
 					$this
 						.addClass('active')
 						.addClass('active-locked');
-
 			})
 			.each(function() {
-
+			
 				var	$this = $(this),
 					id = $this.attr('href'),
 					$section = $(id);
@@ -73,7 +72,7 @@
 
 						},
 						enter: function() {
-
+							
 							// Activate section.
 								$section.removeClass('inactive');
 
