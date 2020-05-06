@@ -194,7 +194,6 @@
 	a {
 		text-decoration: none;
 		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
 		@include vendor('transition', ('color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
 		outline: 0;
 
@@ -240,7 +239,7 @@
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 100%;
+		width: 1400px;
 
 		@include breakpoint('wide') {
 			width: 1400px;
@@ -251,7 +250,7 @@
 		}
 
 		@include breakpoint('narrow') {
-			width: 100%;
+			width: 960;
 		}
 
 		@include breakpoint('<=narrower') {
@@ -291,6 +290,20 @@
 			@include html-grid((20px, 20px), 'mobile');
 		}
 		
+	}
+
+	.about {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about-contact {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding-left: 24px;
 	}
 
 	.skills-row {
@@ -371,13 +384,13 @@
 		}
 
 		&.avatar48 {
-			width: 66px;
-			height: 66px;
+			width: 68px;
+			height: 68px;
 			background: #f00;
 
 			img {
-				width: 66px;
-				height: 66px;
+				width: 68px;
+				height: 68px;
 			}
 		}
 
@@ -389,7 +402,6 @@
 		&.featured {
 			display: block;
 			width: 35%;
-			margin: 0 auto;
 			margin-bottom: 24px;
 		}
 

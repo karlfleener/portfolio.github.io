@@ -169,7 +169,6 @@ em, i {
 a {
   text-decoration: none;
   color: inherit;
-  border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
   -webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
   transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
   outline: 0;
@@ -215,7 +214,7 @@ br.clear {
 .container {
   margin: 0 auto;
   max-width: 100%;
-  width: 100%;
+  width: 1400px;
 }
 
 @media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -232,7 +231,7 @@ br.clear {
 
 @media screen and (min-width: 961px) and (max-width: 1320px) {
   .container {
-    width: 100%;
+    width: 960;
   }
 }
 
@@ -1547,6 +1546,35 @@ br.clear {
   }
 }
 
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 24px;
+}
+
 .skills-row {
   display: -ms-grid;
   display: grid;
@@ -1636,14 +1664,14 @@ article > .container, article:last-child {
 }
 
 .image.avatar48 {
-  width: 66px;
-  height: 66px;
+  width: 68px;
+  height: 68px;
   background: #f00;
 }
 
 .image.avatar48 img {
-  width: 66px;
-  height: 66px;
+  width: 68px;
+  height: 68px;
 }
 
 .image.fit {
@@ -1654,7 +1682,6 @@ article > .container, article:last-child {
 .image.featured {
   display: block;
   width: 35%;
-  margin: 0 auto;
   margin-bottom: 24px;
 }
 
