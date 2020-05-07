@@ -49,9 +49,10 @@
 					$this
 						.addClass('active')
 						.addClass('active-locked');
+
 			})
-			.each(function() {
-			
+			.each(() => {
+
 				var	$this = $(this),
 					id = $this.attr('href'),
 					$section = $(id);
@@ -72,7 +73,7 @@
 
 						},
 						enter: function() {
-							
+
 							// Activate section.
 								$section.removeClass('inactive');
 
@@ -80,15 +81,16 @@
 								if ($nav_a.filter('.active-locked').length == 0) {
 
 									$nav_a.removeClass('active');
+
 									$this.addClass('active');
 
 								}
-
+							
 							// Otherwise, if this section's link is the one that's locked, unlock it.
 								else if ($this.hasClass('active-locked'))
 									$this.removeClass('active-locked');
 
-						}
+						}	
 					});
 
 			});
