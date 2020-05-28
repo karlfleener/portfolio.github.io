@@ -71,15 +71,15 @@
 				<div class="about">
 					<img src="images/profile-square.jpeg" alt="profile picture" class="image featured"/>
 					<div class="about-contact">
-						<a href="/images/Karl Fleener Resume.pdf" target="_blank" class="icon solid fa-file-pdf"> / Resume</a>
+						<a href="/images/Karl_Fleener_Resume.pdf" target="_blank" class="icon solid fa-file-pdf"> / Resume</a>
 						<a href="https://www.linkedin.com/in/karlfleener/" target="_blank" class="icon brands fa-linkedin"> / karlfleener</a>
-						<a href="https://angel.co/u/karl-fleener" target="_blank" class="icon brands fa-angellist"> / karlfleener</a>
+						<a href="https://angel.co/u/karlfleener" target="_blank" class="icon brands fa-angellist"> / karlfleener</a>
 						<a href="https://github.com/karlfleener" target="_blank" class="icon brands fa-github"> / karlfleener</a>
 						<a href="mailto:karlfleener@gmail.com" target="_blank" class="icon solid fa-envelope"> / karlfleener@gmail.com</a>
 					</div>
 				</div>
 		
-				<p>I am a Software Engineer with experience in React, Redux, JavaScript, 
+				<p class="about-me">I am a Software Engineer with experience in React, Redux, JavaScript, 
 					Ruby and Rails. After graduating from Iowa State University I moved to 
 					New York and worked in the fashion industry for five years. Continuously 
 					learning and building beautiful product are what I am most passionate about.
@@ -209,7 +209,7 @@
 							<div class="portfolio-row">
 								<div class="portfolio-item">
 									<a href="https://pintoit.herokuapp.com/#/" target="_blank">
-										<img src="images/pintoit-preview.gif" />
+										<img src="images/profile.gif" />
 									</a>
 									<div class="portfolio-description">
 										<h3>Pintoit</h3>
@@ -222,19 +222,31 @@
 											CSS, Git, Webpack, Babel
 											</strong>
 										</div>
-										<p>A Pinterest Clone that allows user to discover, create and
-											collect images and ideas. <br/>
-											• Implemented custom back and front-end user authentication by combining Rails,<br/> Active Record, and customized
+										<p>A Pinterest clone that allows users to share and save pins to categorized boards. <br/>
+											<!-- • Implemented custom back and front-end user authentication by combining Rails,<br/> Active Record, and customized
 											React-Router higher order components.<br />
 											• Integrated modals for CRUD actions with pins and boards enhancing user experience.<br />
-											• Connected Rails back-end to AWS for media storage improving scalability and security.<br />
+											• Connected Rails back-end to AWS for media storage improving scalability and security.<br /> -->
+
+											• Ensured user privacy and autonomy through frontend and backend authentication measures and React-Router, only allowing
+											logged-in users to access and make changes to their content.<br />
+											
+											• Improved speed and performance by eliminating N+1 queries by adhering to Active Record best practices, such as eager
+											loading associated relations.<br />
+											
+											• Optimized performance by connecting Rails back-end to AWS for media storage to reduce server load and improve
+											scalability.<br />
+											
+											• Implemented CSS media screen queries in order to create a responsive, Masonry style layout with seamless transition
+											between display sizes to improve user experience.<br />
+
 										 </p>
 									</div>
 								</div>
 
 								<div class="portfolio-item">
 									<a href="http://app-felix.herokuapp.com/#/" target="_blank">
-										<img src="images/felix-preview.gif" />
+										<img src="images//felix_preview.png" />
 									</a>
 										<div class="portfolio-description">
 											<h3>Felix</h3>
@@ -248,16 +260,24 @@
 												</strong>
 											</div>
 											<p>An emotion-based media curation app <br />
-												• Headed front-end development and product design while collaborating with 3 other<br /> Software Engineers.<br />
+												<!-- • Headed front-end development and product design while collaborating with 3 other<br /> Software Engineers.<br />
 												• Incorporated React-Redux to architect highly scalable and unidirectional front-end<br /> state management.<br />
-												• Employed CSS flexbox for a compelling and dynamic product design.<br />
+												• Employed CSS flexbox for a compelling and dynamic product design.<br /> -->
+												• Headed front-end development and design while collaborating with 3 other Software Engineers.<br />
+												
+												• Incorporated React to minimize expensive DOM updates, improving app performance.<br />
+												
+												• Managed React components by reusing them to maintain our codebase, and give app a consistent look and feel.<br />
+												
+												• Applied CSS Grid layout and Flexbox allowing for seamless transitions between display sizes for a dynamic product
+												design.<br />
 											</p>
 										</div>
 								</div>
 
 								<div class="portfolio-item">
 									<a href="https://karlfleener.github.io/algorithm-visualizer/" target="_blank">
-										<img src="images/algo-visualizer-preview.gif" />
+										<img src="images/algo-visualizer.gif" />
 									</a>
 										<div class="portfolio-description">
 											<h3>Algorithm Visualizer</h3>
@@ -267,9 +287,15 @@
 											</div>
 											<div><strong>JavaScript, Canvas</strong>
 											</div>
-											<p>An app displaying algorithm functionality <br />
-												• Leveraged generator functions for asynchronous programming<br />
-												• Designed graphics and animations utilizing Canvas<br />
+											<p>Visualization tool for sorting algorithms <br />
+
+												• Built in Vanilla JavaScript, Implemented the algorithms bubble sort and quick sort.<br />
+												
+												• Leveraged generator functions for asynchronous programming allowing Canvas to render each iterative loop in the sorting
+												algorithm.<br />
+												
+												• Integrated session storage to persist settings data over page reloads enhancing user experience.<br />
+
 											</p>
 										</div>
 								</div>

@@ -1577,6 +1577,11 @@ br.clear {
   padding-left: 24px;
 }
 
+.about-me {
+  text-align: left;
+  margin: 12px 48px 0 48px;
+}
+
 .skills-row {
   display: -ms-grid;
   display: grid;
