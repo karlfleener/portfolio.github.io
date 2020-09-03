@@ -1558,6 +1558,7 @@ br.clear {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      margin-bottom: 24px;
 }
 
 .about-contact {
@@ -1685,7 +1686,6 @@ article > .container, article:last-child {
 .image.featured {
   display: block;
   width: 35%;
-  margin-bottom: 24px;
 }
 
 .image.left {
