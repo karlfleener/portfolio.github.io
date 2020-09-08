@@ -1558,7 +1558,7 @@ br.clear {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-      margin-bottom: 24px;
+      margin-bottom: 2em;
 }
 
 .about-contact {
